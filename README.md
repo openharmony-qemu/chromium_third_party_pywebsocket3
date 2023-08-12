@@ -1,37 +1,36 @@
-# chromium_third_party_pywebsocket3
 
-#### 介绍
-第三方软件pywebsocket3
+# pywebsocket3 #
 
-#### 软件架构
-软件架构说明
+The pywebsocket project aims to provide a [WebSocket](https://tools.ietf.org/html/rfc6455) standalone server.
 
+pywebsocket is intended for **testing** or **experimental** purposes.
 
-#### 安装教程
+Run this to read the general document:
+```
+$ pydoc mod_pywebsocket
+```
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+Please see [Wiki](https://github.com/GoogleChromeLabs/pywebsocket3/wiki) for more details.
 
-#### 使用说明
+# INSTALL #
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+To install this package to the system, run this:
+```
+$ python setup.py build
+$ sudo python setup.py install
+```
 
-#### 参与贡献
+To install this package as a normal user, run this instead:
 
-1.  Fork 本仓库
-2.  新建 Feat_xxx 分支
-3.  提交代码
-4.  新建 Pull Request
+```
+$ python setup.py build
+$ python setup.py install --user
+```
+# LAUNCH #
 
-
-#### 特技
-
-1.  使用 Readme\_XXX.md 来支持不同的语言，例如 Readme\_en.md, Readme\_zh.md
-2.  Gitee 官方博客 [blog.gitee.com](https://blog.gitee.com)
-3.  你可以 [https://gitee.com/explore](https://gitee.com/explore) 这个地址来了解 Gitee 上的优秀开源项目
-4.  [GVP](https://gitee.com/gvp) 全称是 Gitee 最有价值开源项目，是综合评定出的优秀开源项目
-5.  Gitee 官方提供的使用手册 [https://gitee.com/help](https://gitee.com/help)
-6.  Gitee 封面人物是一档用来展示 Gitee 会员风采的栏目 [https://gitee.com/gitee-stars/](https://gitee.com/gitee-stars/)
+To use pywebsocket as standalone server, run this to read the document:
+```
+$ pydoc mod_pywebsocket.standalone
+```
+# Disclaimer #
+This is not an officially supported Google product

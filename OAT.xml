@@ -6,7 +6,7 @@
                 <policyitem type="compatibility" name="Khronos License" path="SPIRV.*" desc="" />
                 <policyitem type="compatibility" name="GPL-2.0-with-bison-exception" path=".*" desc="" />
                 <policyitem type="compatibility" name="GPL-3.0+" path=".*" desc="" />
-                <policyitem type="compatibility" name="Khronos Group License" path="glslang/MachineIndependent.*" desc="" />
+                <!-- <policyitem type="compatibility" name="Khronos Group License" path="glslang/MachineIndependent.*" desc="" /> -->
             </policy>
         </policylist>
         <filefilterlist>
@@ -33,6 +33,14 @@
             </filefilter>
             <filefilter name="defaultFilter">
                 <filteritem type="filepath" name="README.OpenSource"
+                    desc="" />
+                <filteritem type="filepath" name="test/cert/cacert.pem"
+                    desc="" />
+                <filteritem type="filepath" name="test/cert/cert.pem"
+                    desc="" />
+                <filteritem type="filepath" name="test/cert/client_cert.p12"
+                    desc="" />
+                <filteritem type="filepath" name="test/cert/key.pem"
                     desc="" />
             </filefilter>
         </filefilterlist>       

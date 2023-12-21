@@ -1,0 +1,11 @@
+[
+    {
+        "Name": "pywebsocket3",
+        "License":"BSD-3-Clause",
+        "License File":"LICENSE",
+        "Version Number": "50602a14f1b6da17e0b619833a13addc6ea78bc2",
+        "Owner": "huangjiewen2@huawei.com",
+        "Upstream URL": "https://chromium.googlesource.com/external/github.com/GoogleChromeLabs/pywebsocket3.git@50602a14f1b6da17e0b619833a13addc6ea78bc2",
+        "Description": "第三方软件pywebsocket3，一种基于HTTP的长链接技术"
+    }
+]
